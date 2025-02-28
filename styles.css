@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}   
+
+    body {
+    color:#333;
+    background-color: #f7f7f7;
+    text-align: center;
+    font-family:'Quicksand' sans-serif;
+    }
+
+body {
+    background-color: #000957;
+    color: #FFFFFF;
+}
+
+.top-container, .bottom-container {
+    background-color: #000957;
+}
+
+h1, h2, h3 {
+    color:#577BC1;
+    font-family: 'Quicksand', sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+ 
+h1 {
+    color: #FFEB00;
+    font-size: 3rem;
+    margin-top: 40px;
+}
+
+h2, h3 {
+    color: #FFEB00;
+    font-size: 2rem;
+}
+
+p {
+    line-height: 1.8;
+    color: #555;
+    font-size: 1rem;
+    margin: 20px 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.top-container, .bottom-container {
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: #000957;
+    padding: 40px 0;
+}
+
+.top-container .jumbotron {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.middle-container {
+    margin: 40px;
+  padding: 3%; 
+  text-align: center; 
+}
+
+.container-fluid {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    transition: background-color .3s, opacity 0.3s;
+    color: white;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.social-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    margin-top: 30px;
+}
+
+.social-menu li {
+    margin: 0 10px;
+}
+
+.social-menu i {
+    padding: 15px;
+    font-size: 28px;
+    border-radius: 50%;
+    background-color: #533;
+    color: white;
+    transition: background-color 0.3s;
+}
+.navbar {
+    background-color: #333;
+}
+
+.navbar-brand, .nav-link {
+    color: white !important;
+}
+
+.navbar-toggler-icon {
+    background-color: #FFEB00;
+}
+
+@media (max-width: 768px) {
+   .top-container, .bottom-container {
+    padding: 20px 0;
+   }
+    }
+
+.fa-github {
+    background: #00aff0;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
